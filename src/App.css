@@ -1,6 +1,29 @@
-body {
+/* body {
   background-image: url("wavesNegative.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #03045e;
+} */
+
+body {
+  background: rgb(7, 0, 124);
+  background: -moz-linear-gradient(
+    50deg,
+    rgba(7, 0, 124, 1) 0%,
+    rgba(12, 12, 153, 1) 50%,
+    rgba(0, 168, 202, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    50deg,
+    rgba(7, 0, 124, 1) 0%,
+    rgba(12, 12, 153, 1) 50%,
+    rgba(0, 168, 202, 1) 100%
+  );
+  background: linear-gradient(
+    50deg,
+    rgba(7, 0, 124, 1) 0%,
+    rgba(12, 12, 153, 1) 50%,
+    rgba(0, 168, 202, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#07007c",endColorstr="#00a8ca",GradientType=1);
 }
