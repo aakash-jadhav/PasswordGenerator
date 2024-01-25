@@ -63,20 +63,25 @@ function App() {
               onChange={(e) => setLength(e.target.value)}
             />
             <label htmlFor="length">Length:{length}</label>
-            <input
-              type="checkbox"
-              name="symbols"
-              id="symbols"
-              onChange={(e) => setSymbols(e.target.checked)}
-            />
-            <label htmlFor="symbols">Symbols</label>
-            <input
-              type="checkbox"
-              name="numbers"
-              id="numbers"
-              onChange={(e) => setNumbers(e.target.checked)}
-            />
-            <label htmlFor="numbers">Numbers</label>
+            <div>
+              <input
+                type="checkbox"
+                name="symbols"
+                id="symbols"
+                onChange={(e) => setSymbols(e.target.checked)}
+              />
+
+              <label htmlFor="symbols"> Symbols</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                name="numbers"
+                id="numbers"
+                onChange={(e) => setNumbers(e.target.checked)}
+              />
+              <label htmlFor="numbers"> Numbers</label>
+            </div>
           </div>
         </div>
       </div>
